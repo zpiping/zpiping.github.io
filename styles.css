@@ -1,0 +1,197 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Fondo azul claro */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #00838f; /* Verde azulado oscuro */
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.about-header {
+    background-color: #00838f; /* Fondo verde azulado */
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto 20px auto; /* Centra el cuadro y añade margen en la parte inferior */
+    box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+    text-align: center; /* Centra el texto dentro del cuadro */
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('static/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero .text-container {
+    display: inline-block;
+    background-color: rgba(0, 131, 143, 0.8); /* Fondo verde azulado semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about, .projects, .contact {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #00838f; /* Verde azulado oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: white; /* Cambia el color a blanco para un mejor contraste */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem; /* Tamaño de los íconos */
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .social-links a:hover {
+    color: #b2dfdb; /* Color claro al pasar el cursor para destacar */
+}
+
+footer .social-links i {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+
+/* Estilos para la sección de habilidades */
+.skills h2 {
+    text-align: center;
+    color: #00838f; /* Verde azulado oscuro */
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.bar {
+    background-color: #ddd;
+    width: 100%; /* Asegura que la barra ocupe todo el ancho del contenedor */
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+}
+
+.level {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+    min-width: 25%; /* Ancho mínimo del 25% */
+    max-width: 83%; /* Ancho máximo del 83% */
+}
+
+.add-project-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact .social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact .social-links a {
+    color: #00838f;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+.contact .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Añadir estilos específicos para los íconos de redes sociales */
+footer .social-links {
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer .social-links a {
+    color: white; /* Color blanco para los íconos */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem; /* Tamaño de los íconos */
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .social-links a:hover {
+    color: #b2dfdb; /* Color claro al pasar el cursor */
+}
+
+footer .social-links i {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
